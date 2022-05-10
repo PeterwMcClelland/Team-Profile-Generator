@@ -1,0 +1,28 @@
+{
+  "name": "object-oriented-programming",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "directories": {
+    "lib": "lib"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/peterwmcclelland/object-orented-programming.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/peterwmcclelland/object-orented-programming/issues"
+  },
+  "homepage": "https://github.com/peterwmcclelland/object-orented-programming#readme",
+  "devDependencies": {
+    "jest": "^27.5.1"
+  },
+  "dependencies": {
+    "inquirer": "^8.2.4"
+  }
+}

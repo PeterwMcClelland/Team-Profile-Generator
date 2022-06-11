@@ -1,0 +1,11 @@
+#navbar {
+    font-size: 75px;
+}
+
+.square-header {
+    background-color: cornflowerblue;
+}
+.container {
+    margin: auto;
+    justify-content: space-evenly;
+}

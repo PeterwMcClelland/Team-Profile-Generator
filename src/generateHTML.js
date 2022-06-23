@@ -5,29 +5,33 @@ const generateManager = function (manager) {
 </div>
 <div class="card-body">
     <p class="id">ID: ${manager.id}</p>
-</div>`;
+</div>
+`;
 
 }
 
 const generateEngineer = function (engineer) {
-    return `<div class="card-header">
+    return `
+    <div class="card-header">
     <h3>${engineer.name}</h3>
-    <h4>Engineer</h4><i class="material-icons">laptop_mac</i>
+    <h4>Engineer</h4><i class="material-icons"></i>
 </div>
 <div class="card-body">
     <p class="id">ID: ${engineer.id}</p>
-</div>`
+</div>
+`
 
 }
 
 const generateIntern = function (intern) {
     return `<div class="card-header">
                 <h3>${intern.name}</h3>
-                <h4>Intern</h4><i class="material-icons">assignment_ind</i>
+                <h4>Intern</h4>
             </div>
             <div class="card-body">
                 <p class="id">ID: ${intern.id}</p>
-            </div>`
+            </div>
+            `
 };
 
 generateHTML = (data) => {
@@ -69,6 +73,7 @@ const generateTeamPage = function (employeeCards) {
       <meta charset="UTF-8">
       <meta name="viewport" content="width=device-width, initial-scale=1.0">
       <title>Welcome Team</title>
+      <link rel="stylesheet" href="style.css">
   </head>
   <body>
       <header>
@@ -86,7 +91,8 @@ const generateTeamPage = function (employeeCards) {
       </main>
       
   </body>
-  </html>`;
+  </html>
+  `;
 }
 
 module.exports = generateHTML;

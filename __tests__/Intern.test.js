@@ -7,5 +7,5 @@ test('Intern object', () => {
 
 test('Intern role', () => {
     const intern = new Intern('Sarah', 3);
-    expect(intern.getRole()).toEqual("intern");
+    expect(intern.getRole()).toEqual("Intern");
 });

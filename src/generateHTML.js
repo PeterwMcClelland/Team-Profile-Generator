@@ -1,7 +1,7 @@
 const generateManager = function (manager) {
     return  `<div class="card-header">
     <h3>${manager.name}</h3>
-    <h4>Manager</h4><i class="material-icons">content_paste</i>
+    <h4>Manager</h4>
 </div>
 <div class="card-body">
     <p class="id">ID: ${manager.id}</p>
@@ -14,7 +14,7 @@ const generateEngineer = function (engineer) {
     return `
     <div class="card-header">
     <h3>${engineer.name}</h3>
-    <h4>Engineer</h4><i class="material-icons"></i>
+    <h4>Engineer</h4>
 </div>
 <div class="card-body">
     <p class="id">ID: ${engineer.id}</p>

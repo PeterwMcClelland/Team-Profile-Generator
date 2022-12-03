@@ -1,6 +1,7 @@
 #navbar {
     font-size: 75px;
     background-color: darkcyan;
+    text-align: center;
 }
 
 .square-header {
@@ -9,4 +10,6 @@
 .container {
     margin: auto;
     justify-content: space-evenly;
+    background-color: rgb(108, 177, 255);
 }
+

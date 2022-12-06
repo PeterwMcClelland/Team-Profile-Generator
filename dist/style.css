@@ -1,22 +1,42 @@
-#navbar {
-    font-size: 75px;
-    background-color: darkcyan;
-    text-align: center;
+* {
+    box-sizing: border-box;
 }
 
-.square-header {
-    background-color: cornflowerblue;
+:root {
+    --primary: rgb(100, 46, 46);
+    --secondary: rgb(207, 207, 207);
 }
-.container {
-    margin: auto;
-    justify-content: space-evenly;
-    background-color: rgb(108, 177, 255);
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
 }
+
+#navbar {
+    background-color: var(--primary);
+    color: var(--secondary);
+    font-size: 50px;
+}
+
+.navbar-brand {
+    font-size: 50px;
+}
+
 
 .card-header {
-    text-align: center;
+    background-color: var(--primary);
+    color: var(--secondary);
 }
 
 .card-body {
-    text-align: center;
+    background-color: var(--secondary);
+    color: var(--primary);
 }
+
+.container {
+    margin: 100px auto;
+    justify-content: space-evenly;
+    display: flex;
+    
+}
+
+

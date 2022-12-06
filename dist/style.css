@@ -13,3 +13,10 @@
     background-color: rgb(108, 177, 255);
 }
 
+.card-header {
+    text-align: center;
+}
+
+.card-body {
+    text-align: center;
+}
